@@ -13,6 +13,7 @@ Movies
 Category
 
 - name
+- movies
 
 Reviews
 
@@ -39,5 +40,5 @@ Note: all users are visitors, but not all visitors are users
 [ ] users can write reviews that only include a rating
 
 [ ] admins can add movies
-[ ] admins can add categories
+[X] admins can add categories
 [ ] admins moderate reviews
