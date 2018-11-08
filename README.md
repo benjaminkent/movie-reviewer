@@ -39,6 +39,6 @@ Note: all users are visitors, but not all visitors are users
 [ ] users can write reviews for movies
 [ ] users can write reviews that only include a rating
 
-[ ] admins can add movies
+[X] admins can add movies
 [X] admins can add categories
 [ ] admins moderate reviews
