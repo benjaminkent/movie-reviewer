@@ -1,4 +1,6 @@
 import React, { Component } from 'react'
+import axios from 'axios'
+
 class App extends Component {
   state = {
     movies: []
@@ -10,6 +12,10 @@ class App extends Component {
       .then(data => {
         this.setState({ movies: data })
       })
+
+    // axios.get('/api/movies').then(response => {
+    //   this.setState(response.data)
+    // })
   }
 
   render() {
